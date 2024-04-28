@@ -2,14 +2,13 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
 const seo = {
   title: "Usman Ghulam Portfolio",
-  description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  description: "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
     title: "Usman Ghulam Portfolio",
     type: "website",
@@ -21,16 +20,13 @@ const seo = {
 const greeting = {
   title: "Usman Ghulam",
   logo_name: "UsmanGhulam",
-  subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
+  subTitle: "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  resumeLink: "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
   portfolio_repository: "https://github.com/usmanghulam?tab=repositories",
   githubProfile: "https://github.com/usmanghulam",
 };
 
-const socialMediaLinks = [
-  {
+const socialMediaLinks = [{
     name: "Github",
     link: "https://github.com/usmanghulam",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
@@ -63,61 +59,24 @@ const socialMediaLinks = [
 ];
 
 const skills = {
-  data: [
-    {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "Full Stack Development",
+  data: [{
+      title: "Front-end Developemnt",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Developed responsive and dynamic user interfaces using ReactJS, NextJs effectively managing state and side effects with Redux, Redux-toolkit, MobX to ensure smooth and scalable application architecture.",
+        "⚡ Skilled in utilizing HTML5 and CSS3 to craft semantic, accessible web pages, enhanced with advanced styling techniques using Sass, Less, and Styled-components for visually appealing, custom designs.",
+        "⚡ Integrated Material UI into React applications, leveraging its robust component library to speed up development while maintaining a high standard of design consistency and user experience.",
+        "⚡ Strong command of JavaScript, employing best practices and modern development techniques to create efficient, maintainable code that powers interactive and feature-rich web applications.",
+        "⚡ Leveraged TypeScript for adding strong typing to enhance code quality and maintainability of JavaScript applications, complemented by jQuery for rapid DOM manipulation and event handling, optimizing both development time and application performance.",
       ],
       softwareSkills: [
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "simple-icons:figma",
+          style: {
+            color: "#F24E1E",
+          },
+        },
         {
           skillName: "HTML5",
           fontAwesomeClassname: "simple-icons:html5",
@@ -155,13 +114,6 @@ const skills = {
           },
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
-          style: {
-            color: "#339933",
-          },
-        },
-        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -181,12 +133,45 @@ const skills = {
           style: {
             color: "#663399",
           },
+        }
+      ],
+    },
+    {
+      title: "Back-end Development",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Developed and maintained high-performance backend services using Node.js and Express.js, focusing on creating efficient, scalable APIs that support complex web applications' data processing needs.",
+        "⚡ Utilized TypeScript to bring strong typing to Node.js environments, significantly reducing runtime errors and enhancing code maintainability and scalability across large-scale projects.",
+        "⚡ Leveraged the powerful features of NestJS for building efficient, reliable server-side applications, employing its extensive use of decorators and modules to organize backend architecture more effectively.",
+      ],
+      softwareSkills: [
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+          style: {
+            color: "#339933",
+          },
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
           style: {
-            color: "#02569B",
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Yarn",
+          fontAwesomeClassname: "simple-icons:yarn",
+          style: {
+            color: "#2C8EBB",
           },
         },
       ],
@@ -195,38 +180,17 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Proficient in utilizing various AWS services to deploy and manage scalable, highly available, and fault-tolerant systems, with extensive experience in configuring and maintaining AWS environments for optimal performance and cost efficiency.",
+        "⚡ Specialized in building and deploying serverless applications using AWS Lambda, reducing infrastructure overhead and streamlining development processes by leveraging fully managed compute services.",
+        "⚡ Experienced in managing both SQL and NoSQL databases, including PostgreSQL and MongoDB; skilled in designing, implementing, and maintaining robust, secure database solutions that ensure data integrity and swift access patterns.",
+        "⚡ Expert in integrating database services with cloud environments to enhance application responsiveness and reliability, utilizing AWS tools to ensure seamless data connectivity and backup solutions across different storage options.",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
           },
         },
         {
@@ -243,59 +207,6 @@ const skills = {
             color: "#47A248",
           },
         },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
-      ],
-    },
-    {
-      title: "UI/UX Design",
-      fileName: "DesignImg",
-      skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Customizing logo designs and building logos from scratch",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
-        {
-          skillName: "Figma",
-          fontAwesomeClassname: "simple-icons:figma",
-          style: {
-            color: "#F24E1E",
-          },
-        },
-        {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
-        },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
       ],
     },
   ],
@@ -303,8 +214,7 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    {
+  competitiveSites: [{
       siteName: "LeetCode",
       iconifyClassname: "simple-icons:leetcode",
       style: {
@@ -324,8 +234,7 @@ const competitiveSites = {
 };
 
 const degrees = {
-  degrees: [
-    {
+  degrees: [{
       title: "Virtual University Of Pakistan",
       subtitle: "Associate Degree In Computer Science",
       logo_path: "vu_logo.jpeg",
@@ -354,13 +263,11 @@ const degrees = {
 };
 
 const certifications = {
-  certifications: [
-    {
+  certifications: [{
       title: "Exam 480: Programming in HTML5 with JavaScript and CSS3",
       subtitle: "- Issued Mar 2019",
       logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://www.credly.com/badges/09ae51a2-ff60-489a-bb12-0c7e2977e43a/linked_in_profile",
+      certificate_link: "https://www.credly.com/badges/09ae51a2-ff60-489a-bb12-0c7e2977e43a/linked_in_profile",
       alt_name: "Microsoft",
       color_code: "#D83B0199",
     },
@@ -368,8 +275,7 @@ const certifications = {
       title: "SQL and Relational Databases 101",
       subtitle: "- Issued Dec 2023",
       logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://courses.cognitiveclass.ai/certificates/a54b8427e84d4cb0845a163d4807ed0b",
+      certificate_link: "https://courses.cognitiveclass.ai/certificates/a54b8427e84d4cb0845a163d4807ed0b",
       alt_name: "IBM",
       color_code: "#1F70C199",
     },
@@ -380,15 +286,12 @@ const certifications = {
 const experience = {
   title: "Experience",
   // subtitle: "Work, Internships",
-  description:
-    "I have worked as a Web Developer with many growing startups, helping them build and improve their websites, web portals and web applications. I’ve also worked with larger, well-established companies as a Software Engineer, where I was responsible for building and maintaining complex software applications.",
+  description: "I have worked as a Web Developer with many growing startups, helping them build and improve their websites, web portals and web applications. I’ve also worked with larger, well-established companies as a Software Engineer, where I was responsible for building and maintaining complex software applications.",
   header_image_path: "experience.svg",
-  sections: [
-    {
+  sections: [{
       title: "Work",
       work: true,
-      experiences: [
-        {
+      experiences: [{
           title: "MERN/PERN Stack Engineer",
           company: "Abhi (YC S21)",
           company_url: "https://abhi.com.pk/",
@@ -405,8 +308,7 @@ const experience = {
           logo_path: "images (1).png",
           duration: "Jan 2022 - Aug 2022",
           location: "Lahore, Pakistan - remote",
-          description:
-            "I collaborated effectively with cross-functional teams to ensure 100% on-time delivery of all assigned tasks. My contributions to enhancing company projects and portals led to a 15% increase in user engagement. I maintained consistent communication and alignment with team objectives, which was crucial for driving project success and improving service outcomes.",
+          description: "I collaborated effectively with cross-functional teams to ensure 100% on-time delivery of all assigned tasks. My contributions to enhancing company projects and portals led to a 15% increase in user engagement. I maintained consistent communication and alignment with team objectives, which was crucial for driving project success and improving service outcomes.",
           color: "#0879bf",
         },
         {
@@ -416,24 +318,21 @@ const experience = {
           logo_path: "images.jpeg",
           duration: "Nov 2019 - Dec 2021",
           location: "Islamabad, Pakistan - hybrid",
-          description:
-            "I specialized in Front End Development, utilizing React and Redux to build both Single Page Applications (SPA) and Multi-Page Applications (MPA), achieving a 20% improvement in application performance. My delivery of exceptional code for complex web applications ensured 100% compatibility across all browsers and operating systems, thereby increasing customer satisfaction. Additionally, I enhanced front-end interfaces by integrating designs with JSON REST APIs, which boosted user engagement by 20%. My expertise in modern web technologies and commitment to high-quality outputs consistently contributed to superior project outcomes.",
+          description: "I specialized in Front End Development, utilizing React and Redux to build both Single Page Applications (SPA) and Multi-Page Applications (MPA), achieving a 20% improvement in application performance. My delivery of exceptional code for complex web applications ensured 100% compatibility across all browsers and operating systems, thereby increasing customer satisfaction. Additionally, I enhanced front-end interfaces by integrating designs with JSON REST APIs, which boosted user engagement by 20%. My expertise in modern web technologies and commitment to high-quality outputs consistently contributed to superior project outcomes.",
           color: "#9b1578",
         },
       ],
     },
     {
       title: "Internships",
-      experiences: [
-        {
+      experiences: [{
           title: "Mern Stack Engineer Intern",
           company: "Zeen Technologies",
           company_url: "https://www.zintechnologies.com/",
           logo_path: "zeen_technologies_logo.jpeg",
           duration: "April 2019 - Nov 2019",
           location: "Lahore, Pakistan",
-          description:
-            "Developed a high-performing blog application with React.js, JavaScript, Node.js, Express.js, MongoDB & React Hooks, resulting in a 20% increase in user engagement.",
+          description: "Developed a high-performing blog application with React.js, JavaScript, Node.js, Express.js, MongoDB & React Hooks, resulting in a 20% increase in user engagement.",
           color: "#000000",
         },
         {
@@ -443,8 +342,7 @@ const experience = {
           logo_path: "bluehorntech_logo.jpeg",
           duration: "Jan 2019 - Mar 2019",
           location: "Lahore, Pakistan",
-          description:
-            "Led team of 5 in developing responsive, user-friendly designs using HTML, CSS, JS, jQuery, and Bootstrap, resulting in 20% increase in website traffic.",
+          description: "Led team of 5 in developing responsive, user-friendly designs using HTML, CSS, JS, jQuery, and Bootstrap, resulting in 20% increase in website traffic.",
           color: "#ee3c26",
         },
       ],
@@ -455,8 +353,7 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  description: "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -467,8 +364,7 @@ const publicationsHeader = {
 };
 
 const publications = {
-  data: [
-    {
+  data: [{
       id: "neuro-symbolic-sudoku-solver",
       name: "Neuro-Symbolic Sudoku Solver",
       createdAt: "2023-07-02T00:00:00Z",
@@ -497,13 +393,11 @@ const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "dp.jpeg",
-    description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Frontend (ReactJs, NextJs), Backend (NodeJs, ExpressJs, Serverless), Cloud (Aws) and Opensource Development.",
+    description: "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Frontend (ReactJs, NextJs), Backend (NodeJs, ExpressJs, Serverless), Cloud (Aws) and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
+    subtitle: "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
     link: "",
     avatar_image_path: "blogs_image.svg",
   },
