@@ -7,13 +7,13 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "Usman Ghulam Portfolio",
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Usman Ghulam Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "",
   },
 };
 
@@ -498,13 +498,13 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "dp.jpeg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Frontend (ReactJs, NextJs), Backend (NodeJs, ExpressJs, Serverless), Cloud (Aws) and Opensource Development.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
       "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
